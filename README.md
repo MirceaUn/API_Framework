@@ -17,7 +17,7 @@ Tests were made for all the types of API interactions:
         - In the second test an incorrect user ID is given and the test asserts that the status code is unsuccessful and the error message is diplayed
 - DELETE - A given user ID is deleted and the test asserts that the status code is successful
 - GET - has been used for multiple tests, as follows:
-1. To check the internet status and the test asserts that the status code is successful and also prints a status message
+1. To check the internet status -> the test asserts that the status code is successful and also prints a status message
 2. To check, when asked about displaying the list of users, if the "limit" and "skip" parameters function correctly
 3. To check, when asked about a filtered list of users, if the parameters for "key" and "value" function correctly
 4. To check, when asked to search for a specific name, that it displays the correct entries from the database
